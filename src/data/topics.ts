@@ -15,7 +15,7 @@ export const dsaTopics = [
             {
                 id: 2,
                 title: "Trailing zeroes in factorial",
-                difficulty: "Basic",
+                difficulty: "Easy",
                 platform: "GeeksforGeeks",
                 link: "https://www.geeksforgeeks.org/problems/trailing-zeroes-in-factorial5134/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab",
                 solution_link: "https://github.com/Atanu0341/0-to-dsa/blob/main/gfg/basic-maths/Trailing-zeroes-in-factorial/solution.cpp"
