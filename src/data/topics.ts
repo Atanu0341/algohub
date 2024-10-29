@@ -18,6 +18,7 @@ export const dsaTopics = [
                 difficulty: "Medium",
                 platform: "LeetCode",
                 link: "https://leetcode.com/problems/maximum-subarray",
+                solution_link: "https://github.com/Atanu0341/0-to-dsa/blob/main/gfg/array/Array-search/solution.cpp"
             },
         ],
     },
