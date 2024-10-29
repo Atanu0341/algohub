@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "DSA Learning",
+  title: "AlgoHub",
   description: "A comprehensive collection of DSA topics and problems",
 };
 
