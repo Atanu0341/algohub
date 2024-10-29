@@ -110,7 +110,7 @@ export default function Topics() {
                                     <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4">{topic.description}</p>
                                     <div className="space-y-2 sm:space-y-3">
                                         {topic.questions.map((question) => (
-                                            <div key={question.id} className="flex flex-col sm:flex-row sm:items-center justify-between rounded-lg border p-3 sm:p-4 hover:bg-[#0f172a] transition-all duration-300 ease-in-out">
+                                            <div key={question.id} className="flex flex-col sm:flex-row sm:items-center justify-between rounded-lg border p-3 sm:p-4 hover:bg-[#cbd5e1] dark:hover:bg-[#0f172a] transition-all duration-300 ease-in-out">
                                                 <div className="mb-2 sm:mb-0">
                                                     <h3 className="text-sm sm:text-base font-medium hover:text-purple-500 transition-colors duration-200">{question.title}</h3>
                                                     <div className="flex items-center gap-2 mt-1">
