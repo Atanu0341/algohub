@@ -96,7 +96,7 @@ export default function Topics() {
             <Accordion type="single" collapsible className="space-y-4">
                 {filteredTopics.map((topic) => (
                     <AccordionItem key={topic.id} value={`topic-${topic.id}`}>
-                        <Card className="transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+                        <Card>
                             <CardHeader className="p-3 sm:p-4 md:p-6">
                                 <AccordionTrigger>
                                     <CardTitle className="flex items-center gap-2 text-base sm:text-lg md:text-xl">
@@ -105,7 +105,7 @@ export default function Topics() {
                                     </CardTitle>
                                 </AccordionTrigger>
                             </CardHeader>
-                            <AccordionContent className="transition-all duration-300 ease-in-out">
+                            <AccordionContent>
                                 <CardContent className="p-3 sm:p-4 md:p-6">
                                     <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4">{topic.description}</p>
                                     <div className="space-y-2 sm:space-y-3">
