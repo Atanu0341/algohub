@@ -100,14 +100,6 @@ export const dsaTopics = [
                 link: "https://www.interviewbit.com/problems/total-moves-for-bishop/",
                 solution_link: "https://github.com/Atanu0341/0-to-dsa/blob/main/interviewbit/basicMaths/Total-Moves-For-Bishop!/solution.cpp"
             },
-            {
-                id: 13,
-                title: "Find the smallest and second smallest element",
-                difficulty: "Basic",
-                platform: "GeeksforGeeks",
-                link: "https://www.geeksforgeeks.org/problems/find-the-smallest-and-second-smallest-element-in-an-array3226/1",
-                solution_link: "https://github.com/Atanu0341/0-to-dsa/blob/main/gfg/array/find-the-smallest-and-second-smallest-element-in-an-array/solution.cpp"
-            },
             
         ],
     },
@@ -126,6 +118,14 @@ export const dsaTopics = [
             },
             {
                 id: 2,
+                title: "Find the smallest and second smallest element",
+                difficulty: "Basic",
+                platform: "GeeksforGeeks",
+                link: "https://www.geeksforgeeks.org/problems/find-the-smallest-and-second-smallest-element-in-an-array3226/1",
+                solution_link: "https://github.com/Atanu0341/0-to-dsa/blob/main/gfg/array/find-the-smallest-and-second-smallest-element-in-an-array/solution.cpp"
+            },
+            {
+                id: 3,
                 title: "Maximum Subarray",
                 difficulty: "Medium",
                 platform: "LeetCode",
