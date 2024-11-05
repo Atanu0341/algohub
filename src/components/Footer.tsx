@@ -56,7 +56,7 @@ export default function Footer() {
                     <p className="text-center lg:text-left lg:max-w-lg">
                         AlgoHub is an open-source DSA platform where you can explore topics, solve practice questions, and contribute optimized solutions in various languages. Enhance your coding skills with our user-friendly layout!          </p>
                     {/* Social Links */}
-                    <div className="flex justify-center gap-4">
+                    <ul className="flex justify-center gap-4">
                         {footerLinks.map((footerLink) => (
                             <li key={footerLink.link} className="list-none">
                                 <Link href={footerLink.link} target="_blank" aria-label={`Link to ${footerLink.name}`}>
@@ -64,7 +64,7 @@ export default function Footer() {
                                 </Link>
                             </li>
                         ))}
-                    </div>
+                    </ul>
                 </div>
                 {/* Copyright Section */}
                 <div className="mt-12 text-center">
